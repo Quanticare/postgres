@@ -1,8 +1,8 @@
 # Version 0.0.2
 
-FROM postgres
+FROM postgres:9.4
 
-MAINTAINER Nick McSpadden <nmcspadden@gmail.com>
+MAINTAINER Savant Krishna <savant@quanti.care>
 
 ENV DB_NAME database
 ENV DB_USER admin
